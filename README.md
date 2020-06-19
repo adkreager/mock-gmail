@@ -2,7 +2,7 @@ Having a lot of trouble with this stuff.
 <br>
 I am able to display all of the emails and their subject lines.
 <br>
-For the search function, I am able to create a filtered array from the search (in the state of SearchResults), but I cannot get it to where it only displays the filtered array after the person has started typing something. It does sort through the emails properly, and display them after typing!
+For the search function, I am able to create a filtered array from the search (in the state of SearchResults). It does sort through the emails properly, and display them after typing! Now I need to replace the EmailContainer with the SearchResults if something is being typed.
 <br>
 That is as far as I got.
 
