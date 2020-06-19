@@ -10,17 +10,17 @@ class SearchBar extends React.Component {
         this.handleChange = this.handleChange.bind(this);
     }
 
-    componentDidMount() {
-        this.setState({
-          filtered: [this.props.emails]
-        });
-      }
+    // componentDidMount() {
+    //     this.setState({
+    //       filtered: [this.props.emails]
+    //     });
+    //   }
       
-    componentWillReceiveProps(nextProps) {
-        this.setState({
-          filtered: nextProps.emails
-        });
-      }
+    // componentWillReceiveProps(nextProps) {
+    //     this.setState({
+    //       filtered: nextProps.emails
+    //     });
+    //   }
 
     handleChange(e) {
         let currentList = [];
@@ -45,7 +45,7 @@ class SearchBar extends React.Component {
         });
         } else {
                 // If the search bar is empty, set newList to original task list
-        newList = this.props.emails;
+        newList =  [];
         }
             // Set the filtered state based on what our rules added to newList
         this.setState({
