@@ -1,3 +1,16 @@
+Having a lot of trouble with this stuff.
+<br>
+I am able to display all of the emails and their subject lines.
+<br>
+For the search function, I am able to create a filtered array from the search (in SearchResults), but I cannot get it to where it only displays the filtered array after the person has started typing something. It does sort through the emails properly, though!
+<br>
+That is as far as I got.
+
+<br>
+I was trying to focus on functionality (and failed), but that's why it looks so ugly.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
