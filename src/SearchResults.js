@@ -5,7 +5,7 @@ function SearchResults(props) {
         <div>
             <h3 className='message'>
                 <div className='sender'>
-                    {props.sender} -- 
+                    {props.sender}
                 </div>
                 <div className='subject'>
                     {props.subject}
