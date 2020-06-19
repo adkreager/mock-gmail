@@ -11,7 +11,6 @@ class App extends React.Component {
     super(props)
     this.state = {
       emails: [],
-      newMessage: false,
     }
   }
 
@@ -45,15 +44,11 @@ class App extends React.Component {
         <header className="App-header">
           <div>
             <div>
-              <SearchBar emails={this.state.emails} makeResultsList={this.makeResultsList}/>
+            <SearchBar emails={this.state.emails} makeResultsList={this.makeResultsList}/>
+            <EmailContainer emails={this.state.emails} makeEmailList={this.makeEmailList}/>
             </div>
           </div>
         </header>
-        <body className="App-body">
-          <div>
-            <EmailContainer emails={this.state.emails} makeEmailList={this.makeEmailList}/>
-          </div>
-        </body>
       </div>
     );
     }

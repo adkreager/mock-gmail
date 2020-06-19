@@ -52,3 +52,8 @@ ul {
 .sender {
   margin-right: 10vw;
 }
+
+
+.hidden {
+  display: none;
+}
