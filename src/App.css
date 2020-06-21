@@ -47,13 +47,22 @@ ul {
 
 .message {
   display: flex;
+  justify-content: space-between;
 }
 
 .sender {
   margin-right: 10vw;
 }
 
-
 .hidden {
   display: none;
+}
+
+.result {
+  border-bottom: 1px solid black;
+}
+
+.email-message {
+  width: 50vw;
+  justify-content: flex-start;
 }
