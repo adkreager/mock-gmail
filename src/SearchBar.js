@@ -1,5 +1,4 @@
-import React, { PureComponent } from 'react'
-import SearchResults from './SearchResults'
+import React from 'react'
 
 class SearchBar extends React.Component {
     constructor(props) {
