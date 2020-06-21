@@ -1,8 +1,8 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 
 function SearchResults(props) {
     return (
-        <div>
+        <div className="result">
             <h3 className='message'>
                 <div className='sender'>
                     {props.sender}
@@ -11,8 +11,7 @@ function SearchResults(props) {
                     {props.subject}
                 </div>
             </h3>
-            <br />
-            <p>{props.message}</p>
+            <p className="email-message">{props.message}</p>
         </div>
     )
 }
