@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react'
-import EmailMessage from './EmailMessage'
 
 class EmailContainer extends PureComponent {
 
